@@ -6,9 +6,9 @@ import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
 
-public class DragAndDropTest {
+public class dragAndDropTest {
     @Test
-    void Junit5() {
+    void dragAndDrop() {
 //Открыть https://the-internet.herokuapp.com/drag_and_drop
         open("https://the-internet.herokuapp.com/drag_and_drop");
 //Перенести прямоугольник А на место В
